@@ -1,0 +1,58 @@
+@charset "ISO-8859-1";
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.user-card {
+    text-align: center;
+    padding: 20px;
+}
+
+.user-card h2 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.user-card p {
+    margin: 10px 0;
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.user-card p strong {
+    color: #000;
+}
+
+.user-card p:last-child {
+    margin-top: 20px;
+    font-style: italic;
+}
+
+@media (max-width: 600px) {
+    .user-card h2 {
+        font-size: 2rem;
+    }
+
+    .user-card p {
+        font-size: 1rem;
+    }
+}
